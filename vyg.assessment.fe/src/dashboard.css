@@ -1,0 +1,49 @@
+
+.center-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.logout-button {
+    margin-left: 10px;
+}
+  
+  form {
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    max-width: 600px; 
+  }
+
+  .text-field {
+    background-color: #ffffff; 
+    color: #000000; 
+    border-radius: 4px; 
+  }
+
+  .text-field .MuiInputBase-input {
+    color: #000000;
+  }
+  
+  .text-field .MuiFormLabel-root {
+    color: #000000; 
+  }
+  
+  .text-field .MuiInput-underline:before {
+    border-bottom: 1px solid #cccccc; 
+  }
+
+  .response-message {
+    display: flex;
+    margin-bottom: 15px; 
+    text-align: center; 
+}
