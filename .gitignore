@@ -1,0 +1,36 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+################################################################################
+# Back end
+################################################################################
+/Vyg.Assessment.BE/.vs
+/Vyg.Assessment.BE/bin
+/Vyg.Assessment.BE/obj
+/.vs
+
+
+################################################################################
+# Front End
+################################################################################
+/vyg.assessment.fe/node_modules
+/vyg.assessment.fe/.pnp
+/vyg.assessment.fe.pnp.js
+
+# testing
+/vyg.assessment.fe/coverage
+
+# production
+/vyg.assessment.fe/build
+
+# misc
+/vyg.assessment.fe/.DS_Store
+/vyg.assessment.fe/.env.local
+/vyg.assessment.fe/.env.development.local
+/vyg.assessment.fe/.env.test.local
+/vyg.assessment.fe/.env.production.local
+
+/vyg.assessment.fe/npm-debug.log*
+/vyg.assessment.fe/yarn-debug.log*
+/vyg.assessment.fe/yarn-error.log*
